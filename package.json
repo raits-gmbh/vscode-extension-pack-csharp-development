@@ -19,6 +19,9 @@
     "categories": [
         "Extension Packs"
     ],
+    "keywords": [
+      "raits"
+    ],
     "extensionPack": [ 
         "ms-dotnettools.csharp",
         "ms-dotnettools.blazorwasm-companion",
