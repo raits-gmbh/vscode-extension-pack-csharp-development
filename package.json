@@ -1,0 +1,37 @@
+{
+    "author": {
+        "name": "René André IT-Services GmbH",
+        "email": "info@raits.gmbh",
+        "url": "https://raits.gmbh/"
+    },
+    "publisher": "raits",
+    "repository": {
+        "url": "https://github.com/raits-gmbh/vscode-extension-pack-csharp-development"
+    },
+    "license": "MIT",
+    "name": "csharp-extensions",
+    "displayName": "C# Development Extension Pack",
+    "description": "Extensions related to C# development",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.blazorwasm-companion",
+        "kreativ-software.csharpextensions",
+        "fudge.auto-using",
+        "aaron-bond.better-comments",
+        "hjdarnel.dotnet-test-explorer",
+        "kishoreithadi.dotnet-core-essentials",
+        "eservice-online.vs-sharper",
+        "k--kato.docomment",
+        "adrianwilczynski.namespace",
+        "adrianwilczynski.asp-net-core-snippet-pack",
+        "adrianwilczynski.asp-net-core-switcher",
+        "adrianwilczynski.blazor-snippet-pack"
+    ]
+}
