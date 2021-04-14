@@ -12,7 +12,7 @@
     "name": "csharp-extensions",
     "displayName": "C# Development Extension Pack",
     "description": "Extensions related to C# development",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "engines": {
         "vscode": "^1.55.0"
     },
@@ -36,6 +36,7 @@
         "adrianwilczynski.asp-net-core-snippet-pack",
         "adrianwilczynski.asp-net-core-switcher",
         "adrianwilczynski.blazor-snippet-pack",
-        "coenraads.bracket-pair-colorizer"
+        "coenraads.bracket-pair-colorizer",
+        "ms-dotnettools.vscode-dotnet-runtime"
     ]
 }
