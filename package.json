@@ -6,13 +6,18 @@
     },
     "publisher": "raits",
     "repository": {
+		"type": "git",
         "url": "https://github.com/raits-gmbh/vscode-extension-pack-csharp-development"
+    },
+    "bugs": {
+        "url": "https://github.com/raits-gmbh/vscode-extension-pack-csharp-development/issues"
     },
     "license": "MIT",
     "name": "csharp-extensions",
     "displayName": "C# Development Extension Pack",
     "description": "Extensions related to C# development",
-    "version": "0.0.5",
+    "version": "0.0.6",
+	"homepage": "https://github.com/raits-gmbh/vscode-extension-pack-csharp-development",
     "engines": {
         "vscode": "^1.55.0"
     },
@@ -20,7 +25,20 @@
         "Extension Packs"
     ],
     "keywords": [
-      "raits"
+      "raits",
+	  "c#",
+	  "csharp",
+	  "cake",
+	  "blazor",
+	  "dotnet",
+	  ".net",
+	  ".net core",
+	  "asp.net",
+	  "asp.net core",
+	  "t4",
+	  "msbuild",
+	  "nuget",
+	  "mono"
     ],
     "extensionPack": [ 
         "ms-dotnettools.csharp",
@@ -36,7 +54,17 @@
         "adrianwilczynski.asp-net-core-snippet-pack",
         "adrianwilczynski.asp-net-core-switcher",
         "adrianwilczynski.blazor-snippet-pack",
-        "coenraads.bracket-pair-colorizer",
-        "ms-dotnettools.vscode-dotnet-runtime"
+		"adrianwilczynski.csharp-to-typescript",
+		"adrianwilczynski.add-reference",
+        "ms-dotnettools.vscode-dotnet-runtime",
+		"corylulu.csharp-interpolated-string-converter",
+		"cake-build.cake-vscode",
+		"zbecknell.t4-support",
+		"jacknq.TextTemplating",
+		"leo-labs.dotnet",
+		"tintoy.msbuild-project-tools",
+		"aliasadidev.nugetpackagemanagergui",
+		"eridem.vscode-nupkg",
+		"ms-vscode.mono-debug"
     ]
 }
